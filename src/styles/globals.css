@@ -1,0 +1,63 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard-dynamic-subset.css");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-primary: #b59665;
+    --color-secondary: #f7f3ec;
+    --color-accent: #e7d8c5;
+    --color-dark: #45362d;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px; /* sticky header 보정 */
+  }
+
+  body {
+    @apply bg-white text-dark font-sans antialiased;
+    font-size: 16px;
+    line-height: 1.7;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-bold text-dark;
+    word-break: keep-all;
+  }
+
+  p,
+  li {
+    word-break: keep-all;
+  }
+}
+
+@layer components {
+  .container-site {
+    @apply mx-auto w-full max-w-content px-6;
+  }
+
+  .section {
+    @apply py-20 md:py-[120px];
+  }
+
+  /* Heading 1: 36px mobile / 48px desktop */
+  .h1 {
+    @apply text-[36px] leading-tight md:text-[48px];
+  }
+  /* Heading 2: 28px mobile / 36px desktop */
+  .h2 {
+    @apply text-[28px] leading-snug md:text-[36px];
+  }
+  .h3 {
+    @apply text-[22px] font-semibold leading-snug md:text-[28px];
+  }
+  .body-lg {
+    @apply text-base md:text-[18px];
+  }
+}
