@@ -41,6 +41,7 @@ npm run build                   # 결과물: out/
 | `reviews.ts` | 고객 후기 |
 
 링크 확정 시 `src/data/links.ts`의 placeholder(`https://booking.naver.com/` 등)를 실제 주소로 교체한 뒤 `git push` 하면 자동 배포됩니다.
+교체가 필요한 실제 링크 목록·확보 방법은 [`LINKS.md`](./LINKS.md) 참고.
 
 ## 이미지
 
