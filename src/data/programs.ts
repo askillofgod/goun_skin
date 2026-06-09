@@ -32,7 +32,7 @@ export const programs: Program[] = [
       "틀어진 바디를 바로잡는 케어",
       "온열 및 이온테라피 기능",
     ],
-    image: "/images/programs/fullbody-dome.png",
+    image: "/images/programs/fullbody-dome.webp",
   },
   {
     id: 2,
@@ -44,7 +44,7 @@ export const programs: Program[] = [
     salePrice: "55,000원",
     description:
       "고주파와 미세전류 에너지를 활용한 3D 윤곽 관리 시스템입니다.",
-    image: "/images/programs/face-lifting-dome.png",
+    image: "/images/programs/face-lifting-dome.webp",
   },
   {
     id: 3,
@@ -56,7 +56,7 @@ export const programs: Program[] = [
     salePrice: "66,000원",
     description:
       "타깃별 통증 케어와 전신 온열 밸런스, 깊숙한 속근육 이완으로 완성되는 60분 관리입니다.",
-    image: "/images/programs/body-pain-care.png",
+    image: "/images/programs/body-pain-care.webp",
   },
   {
     id: 4,
@@ -68,7 +68,7 @@ export const programs: Program[] = [
     salePrice: "99,000원",
     description:
       "얼굴·바디 기기관리 40분과 전신돔 50분, 총 90분 구성. 강력한 에너지 테라피로 노폐물과 독소 배출, 뭉친 근육 완화, 슬림한 바디라인 케어를 돕는 프리미엄 케어입니다.",
-    image: "/images/programs/premium-care.png",
+    image: "/images/programs/premium-care.webp",
   },
   {
     id: 5,
@@ -80,7 +80,7 @@ export const programs: Program[] = [
     salePrice: "99,000원",
     description:
       "60분 동안 나노테라피와 리프팅 집중 케어로, 얼굴 리프팅 및 재생 관리를 돕는 얼굴 리프팅의 끝판왕 프로그램입니다.",
-    image: "/images/programs/face-dearjogak.png",
+    image: "/images/programs/face-dearjogak.webp",
   },
   {
     id: 6,
@@ -92,7 +92,7 @@ export const programs: Program[] = [
     salePrice: "99,000원",
     description:
       "꽉 막힌 바디를 풀어 통증은 잡고 라인은 조각하는 60분 집중 바디 케어. 전신돔 없이 기기관리만 1시간 집중 관리합니다.",
-    image: "/images/programs/body-lymph.png",
+    image: "/images/programs/body-lymph.webp",
   },
   {
     id: 7,

@@ -59,7 +59,7 @@ export default function Hero() {
         >
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-card shadow-card md:aspect-[5/4]">
             <Image
-              src="/images/hero/hero-main.png"
+              src="/images/hero/hero-main.webp"
               alt="고운통증케어 프리미엄 에너지 테라피 관리 장면"
               fill
               priority

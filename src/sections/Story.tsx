@@ -8,7 +8,7 @@ export default function Story() {
         <Reveal>
           <div className="relative aspect-[4/3] w-full overflow-hidden rounded-card shadow-card">
             <Image
-              src="/images/story/story.png"
+              src="/images/story/story.webp"
               alt="고운통증케어 얼굴 케어 장면"
               fill
               sizes="(max-width: 768px) 100vw, 50vw"
