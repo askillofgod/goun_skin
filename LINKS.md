@@ -7,11 +7,11 @@
 
 | 키 | 용도 | 현재(임시) 값 | 실제 주소 확보 방법 | 사이트 내 사용 위치 |
 | --- | --- | --- | --- | --- |
-| `reservation` | 네이버 예약 | `https://booking.naver.com/` | 네이버 스마트플레이스 → 예약 설정 후 발급되는 예약 페이지 URL | 헤더 · 히어로 · 각 섹션 "예약하기" 버튼 · 플로팅 메뉴 |
+| `reservation` | 네이버 예약 | ✅ 네이버 지도 플레이스 예약(place/2049660612) (확정) | 네이버 스마트플레이스 → 예약 설정 후 발급되는 예약 페이지 URL | 헤더 · 히어로 · 각 섹션 "예약하기" 버튼 · 플로팅 메뉴 |
 | `kakao` | 카카오톡 채널 문의 | `https://pf.kakao.com/` | 카카오톡 채널 관리자센터 → 채널 홈 URL (`https://pf.kakao.com/_XXXXXX`) | 히어로 "카카오톡 문의" · 플로팅 메뉴 |
-| `instagram` | 인스타그램 | `https://instagram.com/` | 매장 인스타그램 계정 프로필 URL | 푸터 |
-| `blog` | 네이버 블로그 | `https://blog.naver.com/` | 매장 네이버 블로그 URL | 푸터 |
-| `map` | 네이버 지도 | `https://map.naver.com/` | 네이버 지도에서 매장 검색 → 공유 → 단축 URL(`https://naver.me/...`) 권장 | 오시는 길(Location) "네이버 지도" 버튼 |
+| `instagram` | 인스타그램 | ✅ `https://www.instagram.com/goun_skin__pain_care/` (확정) | 매장 인스타그램 계정 프로필 URL | 푸터 |
+| `blog` | 네이버 블로그 | ✅ `https://blog.naver.com/kby8026` (확정) | 매장 네이버 블로그 URL | 푸터 |
+| `map` | 네이버 지도 | ✅ 네이버 지도 플레이스(place/2049660612) (확정) | 네이버 지도에서 매장 검색 → 공유 → 단축 URL(`https://naver.me/...`) 권장 | 오시는 길(Location) "네이버 지도" 버튼 |
 
 ## 교체 방법
 
